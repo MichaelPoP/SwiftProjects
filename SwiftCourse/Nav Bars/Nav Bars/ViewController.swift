@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  TextAndInputs
+//  Nav Bars
 //
-//  Created by PoPsiCle on 5/30/15.
+//  Created by PoPsiCle on 6/8/15.
 //  Copyright (c) 2015 PoPsiCle. All rights reserved.
 //
 
@@ -10,22 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var myLabel: UILabel!
-    
-    @IBOutlet var textBox: UITextField!
-    
-    @IBAction func buttonPressed(sender: AnyObject) {
-        
-         myLabel.text = textBox.text
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-       
-        
-        println("Hello World!")
     }
 
     override func didReceiveMemoryWarning() {
